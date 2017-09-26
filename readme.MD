@@ -1,6 +1,6 @@
 # FRONTEND UI TEST
 
-Guide time allowed: **2 hours**
+Guide time allowed: **2-4 hours**
 
 ## Task
 
