@@ -4,11 +4,11 @@ Guide time allowed: **4 hours**
 
 ## Task
 
-You are given a set of properties to display on the **detail page** of a **real estate portal**. Your task is to create a user interface from scratch, fully functional, with only two active buttons, that will let the user browse from a property to the next one (prev/next).
+You are given a set of properties to display on the **detail page** of a **real estate portal**. Your task is to create a user interface from scratch, fully functional, with only two active buttons, that will let the user browse from a property to the next one (prev/next). As well, the last block called "**Similar listing in the nearby area**" must be clickable an open the details of the clicked property.
 
 The result should be created as a **Single Page App**. The data source is provided as a jSON  le and the UI is to be created according to the provided mockup.
 
-The goal of this test is to judge your ability to code something with no help from designers or source  le of the mockup (sketch/photoshop).
+The goal of this test is to judge your ability to code something with no help from designers or source file of the mockup (sketch/photoshop).
 
 ## Requirements
 - Create a SPA UI, in the selected technology (angular/react)
