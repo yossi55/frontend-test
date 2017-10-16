@@ -1,6 +1,6 @@
 # FRONTEND UI TEST
 
-Guide time allowed: **2-4 hours**
+Guide time allowed: **4 hours**
 
 ## Task
 
@@ -13,7 +13,7 @@ The goal of this test is to judge your ability to code something with no help fr
 ## Requirements
 - Create a SPA UI, in the selected technology (angular/react)
 - Try to reach a pixel perfect design according to the mockup
-- Write a photo carousel from scratch, using pure Javascript, **with no help of any external library**, (a fullscreen version is also welcome)
+- Use an external library for the photo carousel, a fullsreen version is also required
 - Make good use of the required technology (angular/react)
 - Show your HTML, CSS and Javascript skills, using SASS/LESS variables, mixins, functions, etc.
 
@@ -31,3 +31,6 @@ This task is designed to give us an idea of:
 - your understanding of OOD
 - your ability to deliver a pixel perfect UI to match a given design guideline
 - your creativity at producing a simple HTML structure, ef cient JS parsing of jSON files and a beautiful uncompiled CSS (less/sass).
+
+## Bonus
+Extra point and consideration will be given if you write the photo carousel from scratch, using pure Javascript, **with no help of any external library** and a fullscreen version as well
