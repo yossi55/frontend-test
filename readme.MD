@@ -13,8 +13,9 @@ The goal of this test is to judge your ability to code something with no help fr
 ## Requirements
 - Create a SPA UI, in the selected technology (angular/react)
 - Try to reach a pixel perfect design according to the mockup
+- Write a photo carousel from scratch, using pure Javascript, **with no help of any external library**, (a fullscreen version is also welcome)
 - Make good use of the required technology (angular/react)
-- Show your HTML, CSS and Javascript skills
+- Show your HTML, CSS and Javascript skills, using SASS/LESS variables, mixins, functions, etc.
 
 ## Constrains
 - Run the page locally in less than 1s
