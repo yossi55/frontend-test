@@ -4,18 +4,23 @@ Guide time allowed: **4 hours**
 
 ## Task
 
-You are given a set of properties to display on the **detail page** of a **real estate portal**. Your task is to create a user interface from scratch, fully functional, with only two active buttons, that will let the user browse from a property to the next one (prev/next). As well, the last block called "**Similar listing in the nearby area**" must be clickable an open the details of the clicked property.
+You are given a set of offerings to display on the **SERP age** of our **real estate crowdfunding platform**. Your task is to create a user interface from scratch, that will display lal the offerings.
 
-The result should be created as a **Single Page App**. The data source is provided as a jSON  le and the UI is to be created according to the provided mockup.
+The result should be created as a **Single Page App** using **Angular 7**. The data source is provided from a public **Mock Data API** and the UI is to be created according to the provided mockup.
 
-The goal of this test is to judge your ability to code something with no help from designers or source file of the mockup (sketch/photoshop).
+The goal of this test is to judge your ability to code something with no help from designers or source file of the mockup (sketch/invision).
+
+Naturally, the page should be 100% responsive and have a correct look on mobile. However, we do not provide the mobile mockup.
+
+## Materials
+- [UI Mockup](https://github.com/yossi55/frontend-test/blob/master/offerings.jpg)
+- [Mock data API](http://private-1b3550-phpbackend.apiary-mock.com/offerings)
 
 ## Requirements
-- Create a SPA UI, in the selected technology (angular/react)
+- Create a SPA UI, in the selected technology (angular 7)
 - Try to reach a pixel perfect design according to the mockup
-- Use an external library for the photo carousel, a fullsreen version is also required
-- Make good use of the required technology (angular/react)
-- Show your HTML, CSS and Javascript skills, using SASS/LESS variables, mixins, functions, etc.
+- Make good use of the required technology (angular / libraries)
+- Show your HTML, CSS and Javascript skills, using SASS variables, mixins, functions, etc.
 
 ## Constrains
 - Run the page locally in less than 1s
@@ -31,6 +36,3 @@ This task is designed to give us an idea of:
 - your understanding of OOD
 - your ability to deliver a pixel perfect UI to match a given design guideline
 - your creativity at producing a simple HTML structure, ef cient JS parsing of jSON files and a beautiful uncompiled CSS (less/sass).
-
-## Bonus
-Extra point and consideration will be given if you write the photo carousel from scratch, using pure Javascript, **with no help of any external library** and a fullscreen version as well
