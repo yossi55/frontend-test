@@ -26,7 +26,7 @@ Naturally, the page should be 100% responsive and have a correct look on mobile.
 - Run the page locally in less than 1s
 - Total load from server should not be more than 1mb
 - The whole package should not exceed 5mb
-- Use a CSS processor like LESS or SASS
+- Use a CSS processor like SASS
 
 ## What we look at
 This task is designed to give us an idea of:
@@ -35,4 +35,4 @@ This task is designed to give us an idea of:
 - how many external libraries you need
 - your understanding of OOD
 - your ability to deliver a pixel perfect UI to match a given design guideline
-- your creativity at producing a simple HTML structure, ef cient JS parsing of jSON files and a beautiful uncompiled CSS (less/sass).
+- your creativity at producing a simple HTML structure, efficient javascript capabilities and a beautiful uncompiled CSS (sass).
