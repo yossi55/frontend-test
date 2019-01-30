@@ -36,3 +36,10 @@ This task is designed to give us an idea of:
 - your understanding of OOD
 - your ability to deliver a pixel perfect UI to match a given design guideline
 - your creativity at producing a simple HTML structure, efficient javascript capabilities and a beautiful uncompiled CSS (sass).
+
+## Keep It Simple and Stupid ([KISS](https://en.wikipedia.org/wiki/KISS_principle))
+- The simpler you make it, the better it will be. But simple doenst mean lazy. Put some hard work at making things great but don't over complicate the thing.
+- If you need more than 4 hours to do the job, then you did not understand the brief correctly, feel free to ask us.
+- If you did not understand it correctly or you have any question, **CONTACT US RIGHT AWAY**.
+- Do not start coding if it is not super clear for you
+- And last, **HAVE FUN**, do your magic, show your skill, show you personal touch, show your style.
