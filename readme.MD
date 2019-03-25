@@ -21,6 +21,7 @@ Naturally, the page should be 100% responsive and have a correct look on mobile.
 - Try to reach a pixel perfect design according to the mockup
 - Make good use of the required technology (angular / libraries)
 - Show your HTML, CSS and Javascript skills, using SASS variables, mixins, functions, etc.
+- Make good use of Bootstrap.
 
 ## Constrains
 - Run the page locally in less than 1s
@@ -36,6 +37,7 @@ This task is designed to give us an idea of:
 - your understanding of OOD
 - your ability to deliver a pixel perfect UI to match a given design guideline
 - your creativity at producing a simple HTML structure, efficient javascript capabilities and a beautiful uncompiled CSS (sass).
+- **your knowledge of Bootstrap.** We use Bootstrap as our frontend css framework in order to avoid using tons of css. If you created lots of CSS that could have been avoided by using Bootstrap, your work will be discarded.
 
 ## Keep It Simple and Stupid ([KISS](https://en.wikipedia.org/wiki/KISS_principle))
 - The simpler you make it, the better it will be. But simple doenst mean lazy. Put some hard work at making things great but don't over complicate the thing.
