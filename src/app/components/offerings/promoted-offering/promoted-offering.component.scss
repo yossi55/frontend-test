@@ -1,0 +1,88 @@
+@import "../../../../variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/buttons";
+
+.promoted-offering {
+  background-color: white;
+  -webkit-box-shadow: 0 0 18px 0 rgba(0,0,0,0.05);
+  -moz-box-shadow: 0 0 18px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 0 18px 0 rgba(0,0,0,0.05);
+  .offering-image {
+    background-size: cover;
+    background-position: center;
+  }
+  .offering-header {
+    background-color: $blue-dark;
+    color: white;
+
+    span {
+      font-size: 1.4rem;
+    }
+
+    small {
+      font-size: .9rem;
+      color: $font-color-blue;
+    }
+  }
+
+  .offering-ati {
+    border-bottom: 1px solid $border-color-grey;
+  }
+
+  .offering-stats {
+    ul {
+      list-style: none;
+      li {
+        flex: 1 calc(50% - 2rem);
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        border-bottom: 1px solid $border-color-grey;
+
+        &:nth-child(odd) {
+          margin-right: 2rem;
+        }
+      }
+    }
+  }
+
+  .promoted-offering-button {
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .promoted-offering {
+    .offering-stats {
+      ul {
+        li {
+          flex: 1 1000%;
+          display: flex;
+          justify-content: space-between;
+          &:nth-child(odd) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .promoted-offering {
+    .offering-stats {
+      ul {
+        li {
+          flex: 1 1000%;
+          display: flex;
+          justify-content: space-between;
+          &:nth-child(odd) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

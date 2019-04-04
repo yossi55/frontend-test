@@ -1,0 +1,63 @@
+<div class="row no-gutters promoted-offering mt-4">
+    <div class="col-12 col-lg-6">
+        <div
+                class="w-100 h-100 offering-image d-none d-lg-block"
+                [ngStyle]="{'background-image': 'url(http://' + offering.images[0].url + ')' }"
+        >
+        </div>
+        <img [src]="'http://' + offering.images[0].url" class="d-block d-lg-none w-100" alt="">
+    </div>
+    <div class="col-12 col-lg-6 pb-3">
+        <div class="row no-gutters">
+            <div class="col-12">
+                <div class="offering-header p-3">
+                    <span class="d-block font-weight-bold">{{ offering.name }}</span>
+                    <small class="d-block">{{ offering.location.city }}, {{ offering.location.canton }}</small>
+                </div>
+                <div class="offering-ati">
+                    <div class="p-3">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Available to invest</span>
+                            <span>{{ offering.available_to_invest | numberToChf }}</span>
+                        </div>
+                        <app-ati-progress-bar [color]="'orange'"[filledPercentage]="offering.loan_to_value">
+                        </app-ati-progress-bar>
+                    </div>
+                </div>
+                <div class="offering-stats">
+                    <div class="p-3">
+                        <ul class="d-flex flex-wrap p-0 m-0">
+                            <li>
+                                <span>Purchase cost</span>
+                                <span>{{ offering.purchase_price | numberToChf }}</span>
+                            </li>
+                            <li>
+                                <span>Mortgage (LTV)</span>
+                                <span>{{ offering.loan_to_value }}%</span>
+                            </li>
+                            <li>
+                                <span>Min. Investment</span>
+                                <span>{{ offering.minimum_investment | numberToChf }}</span>
+                            </li>
+                            <li>
+                                <span>Holding period</span>
+                                <span>{{ offering.holding_period }}</span>
+                            </li>
+                            <li>
+                                <span>Investment type</span>
+                                <span>{{ offering.type | investmentType }}</span>
+                            </li>
+                            <li>
+                                <span>Expected return on equity</span>
+                                <span>{{ offering.expected_roi }}%</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary font-weight-bold promoted-offering-button d-block m-auto">
+                    {{ 'more details' | uppercase }}
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

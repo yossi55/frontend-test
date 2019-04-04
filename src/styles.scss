@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+
+@import "~bootstrap/scss/_functions.scss";
+@import "~bootstrap/scss/_variables.scss";
+@import "~bootstrap/scss/_mixins.scss";
+@import "~bootstrap/scss/_reboot.scss";
+@import "~bootstrap/scss/_root.scss";
+@import "~bootstrap/scss/_utilities.scss";
+@import "~bootstrap/scss/_transitions.scss";
+@import "~bootstrap/scss/_grid.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f6f7fb;
+}
+
+.icon-flip-v {
+  > svg {
+    transform: rotateY(180deg);
+  }
+}
+
+button.btn {
+  padding: .5rem 3rem !important;
+}
+
+.btn-primary {
+  color: white !important;
+}

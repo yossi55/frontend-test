@@ -1,0 +1,66 @@
+@import "../../../variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/badge";
+
+nav.navbar {
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 1.5rem;
+  border-bottom: 1px solid $border-color-grey;
+
+  h2 {
+    color: $font-color-grey;
+  }
+
+  a {
+    color: $blue-dark !important;
+  }
+
+  .user-info {
+    flex-direction: row;
+    align-items: center;
+    .nav-item {
+      position: relative;
+      a {
+        .badge {
+          color: white;
+        }
+      }
+      > a {
+        padding: .7rem;
+        .badge {
+          position: absolute;
+          top: 2px;
+          left: 20px;
+          padding: 3px;
+          border-radius: 0;
+        }
+      }
+    }
+    fa-icon.user-circle-icon {
+      font-size: 1.5rem;
+    }
+  }
+
+  #navbarSupportedContent {
+    .navbar-nav {
+      padding: 0 1rem;
+    }
+    ul > li > a:hover {
+      background-color: #f8f9fa;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  #navbarSupportedContent {
+    display: none !important;
+  }
+}

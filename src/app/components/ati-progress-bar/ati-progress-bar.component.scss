@@ -1,0 +1,21 @@
+@import "../../../variables";
+
+.ati-progress-bar {
+  width: 100%;
+  height: 12px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 6px;
+  background-color: $primary-light;
+  .ati-filled {
+    background-image: linear-gradient(to right, $orange-progres-bar-color-start, $orange-progres-bar-color-end);
+    height: 12px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 6px;
+  }
+  &.green {
+    background-color: $secondary-light;
+    .ati-filled {
+      background-image: linear-gradient(to right, $green-progres-bar-color-start, $green-progres-bar-color-end);
+    }
+  }
+}

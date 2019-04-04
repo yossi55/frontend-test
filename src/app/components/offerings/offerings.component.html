@@ -1,0 +1,7 @@
+<div *ngIf="isLoading; else offeringsPage">Loading...</div>
+<ng-template #offeringsPage>
+  <app-promoted-offering [offering]="promotedOffering"></app-promoted-offering>
+  <app-offering-list [offerings]="offerings"></app-offering-list>
+</ng-template>
+
+

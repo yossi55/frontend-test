@@ -1,0 +1,56 @@
+@import "../../../../variables";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/buttons";
+
+.offering-list-item {
+  .offering-label {
+    border-bottom: 30px solid $secondary;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    height: 0;
+    width: 110px;
+    position: absolute;
+    z-index: 1;
+    transform: rotateZ(-45deg);
+    left: -33px;
+    top: 7px;
+    color: white;
+  }
+  .offering-image {
+    img.blurred {
+      filter: blur(2px);
+    }
+    .offering-header {
+      background-color: $blue-dark;
+      color: white;
+      top: 0;
+
+      span {
+        font-size: 1.2rem;
+      }
+
+      small {
+        font-size: .8rem;
+        color: $font-color-blue;
+      }
+    }
+  }
+  .offering-ati {
+    border-bottom: 1px solid $border-color-grey;
+  }
+
+  .offering-stats {
+    ul {
+      list-style: none;
+      li {
+        display: flex;
+        flex: 1 100%;
+        justify-content: space-between;
+        padding: .5rem;
+        border-bottom: 1px solid $border-color-grey;
+      }
+    }
+  }
+}

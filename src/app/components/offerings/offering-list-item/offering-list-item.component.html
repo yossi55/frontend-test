@@ -1,0 +1,58 @@
+<div class="offering-list-item position-relative">
+  <div *ngIf="offering.slug" class="offering-label font-weight-bold">{{ offering.slug }}</div>
+  <div class="offering-image position-relative">
+    <img [src]="'http://' + offering.images[0].url" class="w-100" [ngClass]="{blurred: blurredImage}" alt="">
+    <div class="offering-header p-3 position-absolute w-100 d-flex flex-column align-items-center">
+      <span class="d-block font-weight-bold">{{ offering.name | uppercase }}</span>
+      <small class="d-block">{{ offering.location.city + ', ' + offering.location.canton | uppercase }}</small>
+    </div>
+  </div>
+  <div class="offering-ati">
+    <div class="p-3">
+      <div class="d-flex justify-content-between mb-2">
+        <span>Available to invest</span>
+        <span>{{ offering.available_to_invest | numberToChf }}</span>
+      </div>
+      <app-ati-progress-bar [color]="atiColor"[filledPercentage]="60"></app-ati-progress-bar>
+    </div>
+  </div>
+  <div class="offering-stats pb-3">
+    <ul class="d-flex flex-wrap p-0 m-0">
+      <li>
+        <span>Purchase cost</span>
+        <span>{{ offering.purchase_price | numberToChf}}</span>
+      </li>
+      <li>
+        <span>Mortgage (LTV)</span>
+        <span>{{ offering.loan_to_value }}%</span>
+      </li>
+      <li>
+        <span>Min. Investment</span>
+        <span>{{ offering.minimum_investment | numberToChf }}</span>
+      </li>
+      <li>
+        <span>Holding period</span>
+        <span>{{ offering.holding_period }}</span>
+      </li>
+      <li>
+        <span>Investment type</span>
+        <span>{{ offering.type | investmentType }}</span>
+      </li>
+      <li>
+        <span>Expected return on equity</span>
+        <span>{{ offering.expected_roi }}%</span>
+      </li>
+    </ul>
+  </div>
+  <button *ngIf="offering.status === 'close'" type="button" class="btn btn-outline-secondary  d-block m-auto">
+    Add me to waiting list
+  </button>
+  <button *ngIf="offering.status === 'open'" type="button" class="btn btn-primary font-weight-bold d-block m-auto">
+    {{ 'more details' | uppercase }}
+  </button>
+  <button *ngIf="offering.status === 'preopen'" type="button" class="btn btn-secondary font-weight-bold d-block m-auto">
+    {{ 'pre-subscribe' | uppercase }}
+  </button>
+</div>
+
+

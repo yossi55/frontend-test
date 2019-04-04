@@ -1,0 +1,29 @@
+ul.offering-list {
+  list-style: none;
+  margin: -15px;
+
+  li {
+    flex: 0 calc(33.33% - 30px);
+    margin: 15px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 18px 0 rgba(0,0,0,0.05);
+    -moz-box-shadow: 0 0 18px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 0 18px 0 rgba(0,0,0,0.05);
+  }
+}
+
+@media (max-width: 1200px) {
+  ul.offering-list {
+    li {
+      flex: 0 calc(50% - 30px);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  ul.offering-list {
+    li {
+      flex: 0 100%;
+    }
+  }
+}

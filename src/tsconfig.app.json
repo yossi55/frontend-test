@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "../out-tsc/app",
+    "types": [],
+    "paths": {
+      "@components/*": ["./app/components/*"],
+      "@models/*": ["./app/models/*"],
+      "@pipes/*": ["./app/pipes/*"],
+      "@services/*": ["./app/services/*"]
+    }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ]
+}
