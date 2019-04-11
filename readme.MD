@@ -2,6 +2,14 @@
 
 Total time allowed: **4 hours**
 
+
+## Procedure
+- Read this Readme carefully and **until the end**
+- Create a personal github repo
+- Name it [your_name]-foxstone-fe-test
+- Push your code there
+- Send us the url
+
 ## Task
 
 You are given a set of offerings to display on the **SERP age** of our **real estate crowdfunding platform**. Your task is to create a user interface from scratch, that will display lal the offerings.
