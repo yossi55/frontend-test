@@ -1,6 +1,6 @@
 # FRONTEND UI TEST
 
-Total time allowed: **4 hours**
+Total time allowed: **4-6 hours**
 
 
 ## Procedure
