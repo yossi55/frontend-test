@@ -12,9 +12,9 @@ Total time allowed: **4-6 hours**
 
 ## Task
 
-You are given a set of offerings to display on the **SERP age** of our **real estate crowdfunding platform**. Your task is to create a user interface from scratch, that will display lal the offerings.
+You are given a set of offerings to display on the **SERP age** of our **real estate crowdfunding platform**. Your task is to create a user interface from scratch, that will display all the offerings.
 
-The result should be created as a **Single Page App** using **Angular 7**. The data source is provided from a public **Mock Data API** and the UI is to be created according to the provided mockup.
+The result should be created as a **Single Page App** using **Angular, React or VueJS**. The data source is provided from a public **Mock Data API** and the UI is to be created according to the provided mockup.
 
 The goal of this test is to judge your ability to code something with no help from designers or source file of the mockup (sketch/invision).
 
@@ -25,7 +25,7 @@ Naturally, the page should be 100% responsive and have a correct look on mobile.
 - [Mock data API](http://private-1b3550-phpbackend.apiary-mock.com/offerings)
 
 ## Requirements
-- Create a SPA UI, in the selected technology (angular 7)
+- Create a SPA UI, in the selected technology
 - Try to reach a pixel perfect design according to the mockup
 - Make good use of the required technology (angular / libraries)
 - Show your HTML, CSS and Javascript skills, using SASS variables, mixins, functions, etc.
